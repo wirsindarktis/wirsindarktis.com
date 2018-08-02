@@ -7,7 +7,7 @@ text-color = hsl(text-color-h, text-color-s, text-color-l)
 // Background
 const bg-color-h = 0
 const bg-color-s = 0%
-const bg-color-l = 15%
+const bg-color-l = 6%
 bg-color = hsl(bg-color-h, bg-color-s, bg-color-l)
 
 // Link

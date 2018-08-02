@@ -1,5 +1,5 @@
 component Home
-	.page.scroller
+	.page.full.scroller
 		h1.title
 			span WIRSIND
 			span.arktis-text ARKTIS
@@ -10,34 +10,38 @@ component Home
 	
 	.page
 		nav
-			NavButton("Online Shop")
-			NavButton("Spotify")
-			NavButton("Apple Music")
-			NavButton("Amazon")
-			NavButton("Youtube")
-			NavButton("Impericon")
-			NavButton("EMP")
+			NavButton("Online Shop", "http://www.merchexplosion.de/epages/DINOGmbH44664904.sf/de_DE/?ObjectPath=/Shops/DINOGmbH44664904/Categories/Arktis")
+			NavButton("Spotify", "https://open.spotify.com/album/7r4KK4DFjsT5NG0Sr8k9Yi")
+			NavButton("Apple Music", "https://itun.es/de/Di-vcb")
+			NavButton("Amazon", "http://smarturl.it/metaAMAZONMP3")
+			NavButton("Youtube", "https://www.youtube.com/user/avearofficial")
+			NavButton("Impericon", "http://www.impericon.com/de/catalogsearch/result/?q=Arktis")
 
-	.page.spaced
+	.page
 		h2.title
 			span WIRSIND
 			span.arktis-text AUFTOUR
 		
 		nav
-			NavButton("24. Aug 2018")
-			NavButton("Metal Flood, Hannover")
-			NavButton("Musikzentrum Hannover")
-			NavButton("Tickets")
+			NavText("24. Aug 2018", "#")
+			NavText("Metal Flood, Hannover", "#")
+			NavText("Musikzentrum Hannover", "#")
+			NavText("Tickets", "#")
 	
-	.page.spaced
+	.page
 		h2.title
 			span WIRSIND
 			span.arktis-text FÜREUCHDA
 		
 		nav
-			NavButton("Newsletter")
-			NavButton("Kontakt")
-			NavButton("Impressum")
+			NavButton("Newsletter", "#")
+			NavButton("Kontakt", "mailto:arktis@monster-artists.com")
+			NavButton("Impressum", "#")
+	
+	.page.full.footer
 
-component NavButton(name string)
-	a.nav-button(href="#")= name
+component NavText(name string, url string)
+	.nav-button= name
+
+component NavButton(name string, url string)
+	a.nav-button(href=url, target="_blank")= name
