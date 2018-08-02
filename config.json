@@ -25,7 +25,7 @@
 	},
 	"gzip": true,
 	"ports": {
-		"http": 4000,
-		"https": 4001
+		"http": 4020,
+		"https": 4021
 	}
 }
