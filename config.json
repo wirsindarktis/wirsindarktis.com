@@ -1,0 +1,25 @@
+{
+	"domain": "",
+	"title": "Arktis",
+	"fonts": [],
+	"styles": [
+		"reset",
+		"config/colors"
+	],
+	"scripts": {
+		"main": "main"
+	},
+	"push": [],
+	"manifest": {
+		"name": "Arktis",
+		"short_name": "Arktis",
+		"start_url": "/",
+		"display": "standalone",
+		"lang": "de"
+	},
+	"gzip": true,
+	"ports": {
+		"http": 4000,
+		"https": 4001
+	}
+}
