@@ -1,10 +1,16 @@
 {
 	"domain": "",
 	"title": "Arktis",
-	"fonts": [],
+	"fonts": [
+		"Lato"
+	],
 	"styles": [
 		"reset",
-		"config/colors"
+		"config/colors",
+		"config/general",
+		"mixins/layout",
+		"mixins/effects",
+		"base"
 	],
 	"scripts": {
 		"main": "main"

@@ -1,2 +1,43 @@
 component Home
-	h1 Wir sind Arktis. Website in progress.
+	.page.scroller
+		h1.title
+			span WIRSIND
+			span.arktis-text ARKTIS
+		a.logo(href="#")
+			img.logo-image(src="/images/brand/128.png", alt="Arktis logo")
+		button.arrow.previous <
+		button.arrow.next >
+	
+	.page
+		nav
+			NavButton("Online Shop")
+			NavButton("Spotify")
+			NavButton("Apple Music")
+			NavButton("Amazon")
+			NavButton("Youtube")
+			NavButton("Impericon")
+			NavButton("EMP")
+
+	.page.spaced
+		h2.title
+			span WIRSIND
+			span.arktis-text AUFTOUR
+		
+		nav
+			NavButton("24. Aug 2018")
+			NavButton("Metal Flood, Hannover")
+			NavButton("Musikzentrum Hannover")
+			NavButton("Tickets")
+	
+	.page.spaced
+		h2.title
+			span WIRSIND
+			span.arktis-text FÜREUCHDA
+		
+		nav
+			NavButton("Newsletter")
+			NavButton("Kontakt")
+			NavButton("Impressum")
+
+component NavButton(name string)
+	a.nav-button(href="#")= name

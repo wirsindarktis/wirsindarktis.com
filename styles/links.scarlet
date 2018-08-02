@@ -1,0 +1,11 @@
+a
+	color link-color
+	text-decoration none
+	default-transition
+
+	:active
+		push-effect
+	
+	:hover
+		color link-hover-color
+		text-decoration none

@@ -1,0 +1,10 @@
+html
+	height 100%
+	font-family text-font
+	font-size base-font-size
+
+body
+	color text-color
+	background-color bg-color
+	overflow-x hidden
+	overflow-y scroll

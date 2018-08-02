@@ -1,0 +1,12 @@
+// Basics
+const text-font = "Lato"
+const base-font-size = 16px
+const transition-speed = 200ms
+const mount-speed = 500ms
+const content-padding = 1.5rem
+const icon-text-distance = 0.6em
+const typography-margin = 1rem
+const text-line-height = 1.6em
+const ui-border-radius = 3px
+const image-border-radius = ui-border-radius
+const input-height = 2.5rem

@@ -1,0 +1,12 @@
+button
+	appearance none
+	border none
+	background transparent
+	color text-color
+	default-transition
+
+	:hover
+		cursor pointer
+	
+	:active
+		push-effect
