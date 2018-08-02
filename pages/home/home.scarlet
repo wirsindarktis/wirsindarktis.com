@@ -1,6 +1,7 @@
 .scroller
 	background url("/images/promo/header.jpg")
 	background-size cover
+	background-position center top
 
 .page
 	padding content-padding
@@ -12,12 +13,17 @@
 .footer
 	background url("/images/promo/footer.jpg")
 	background-size cover
+	background-position center top
 
 .title
 	text-transform uppercase
-	font-size 2rem
+	font-size 1.5rem
 	letter-spacing 2px
 	margin-bottom 2rem
+
+> 800px
+	.title
+		font-size 2rem
 
 // .spaced
 // 	min-height 200px
